@@ -1,0 +1,184 @@
+#header {
+    height: 58px;
+    line-height: 50px;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(150, 148, 148);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+#navigation {
+    margin-left: 400px;
+}
+
+#navigationIndex li:not(:first-child):before {
+    content: " | ";
+    color: gray;
+}
+
+#navigationPortfolio li:not(:first-child):before {
+    content: " | ";
+    color: gray;
+}
+
+#navigationContact li:not(:first-child):before {
+    content: " | ";
+    color: gray;
+}
+
+#header * {
+    display: inline;
+}
+
+#my-name {
+    color: white;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background-color: rgb(70, 157, 163);
+    margin-left: auto;
+    margin: 235px;
+    padding: 15px;
+}
+
+.containerIndex {
+    background-color: white;
+    top: 600px;
+    border: 1px solid rgb(150, 148, 148);
+    width: 960px;
+    margin-left: 215px;
+    margin-right: 215px;
+    margin-top: 100px;
+    height: 100%;
+    padding-bottom: 150px;
+}
+.containerPortfolio {
+    background-color: white;
+    top: 600px;
+    border: 1px solid rgb(150, 148, 148);
+    width: 960px;
+    margin-left: 215px;
+    margin-right: 215px;
+    margin-top: 100px;
+    height: 100%;
+    padding-bottom: 500px;
+}
+.containerContact {
+    background-color: white;
+    top: 600px;
+    border: 1px solid rgb(150, 148, 148);
+    width: 960px;
+    margin-left: 215px;
+    margin-right: 215px;
+    margin-top: 100px;
+    height: 100%;
+    padding-bottom: 55px;
+}
+
+.containerHeader {
+    color:  rgb(70, 157, 163);
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background-color: white;
+    padding: 15px;
+    padding-top: 0px;
+    border-bottom: 2px solid rgb(150, 148, 148);
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.paragraph{
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+#myPic {
+    float: left;
+    padding-left: 25px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    width:150px;
+    height:150px;
+}
+
+.image {
+    margin: auto;
+    margin-left: 20px;
+    float: left;
+    width: 230px;
+}
+
+.projects {
+    background-color: white
+}
+
+.hangmanText {
+  position: absolute;
+  top: 320px;
+  left: 245px;
+  background-color: rgb(70, 157, 163);
+  color: white;
+  padding-left: 72px;
+  padding-right: 72px;
+  }
+
+.rpgText {
+    position: absolute;
+    top: 320px;
+    left: 494px;
+    background-color: rgb(70, 157, 163);
+    color: white;
+    padding-left: 67px;
+    padding-right: 66px;
+  }
+  .triviaText {
+    position: absolute;
+    top: 320px;
+    left: 744px;
+    background-color: rgb(70, 157, 163);
+    color: white;
+    padding-left: 62px;
+    padding-right: 62px;
+  }
+  .widgetText {
+    position: absolute;
+    top: 550px;
+    left: 245px;
+    background-color: rgb(70, 157, 163);
+    color: white;
+    padding-left: 83px;
+    padding-right: 83px;
+  }
+  .rpsText {
+    position: absolute;
+    top: 550px;
+    left: 494px;
+    background-color: rgb(70, 157, 163);
+    color: white;
+    padding-left: 31px;
+    padding-right: 31px;
+  }
+  .form{
+      padding-left: 30px;
+      color: gray;
+  }
+
+.inputField{
+    width: 900px;
+    padding-bottom: 10px;
+    margin-bottom: 8px;
+}
+.messageField{
+    width: 900px;
+    padding-bottom: 400px;
+    margin-bottom: 8px;
+}
+.button{
+    color: white;
+    font-size: 14px;
+    background-color: rgb(70, 157, 163);
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-left: 30px;
+}

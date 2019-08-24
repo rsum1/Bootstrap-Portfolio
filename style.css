@@ -1,6 +1,5 @@
 .navbar-nav {
-    margin-left: 240px;
-    margin-right: 240px;
+    margin-left: 70%;
 }
 
 .navbar {
@@ -63,7 +62,6 @@
     padding-right: 8px;
     padding-top: 4px;
     padding-bottom: 4px;
-    margin-left: 30px;
 }
 
 .photos{
